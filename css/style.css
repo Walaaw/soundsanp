@@ -1,0 +1,429 @@
+
+body{
+    height: 6000px;
+    text-transform: capitalize;
+}
+.container{
+    width: 1176px;
+    margin: auto;
+}
+/* ****************start header********************** */
+.header{
+    overflow: hidden;
+    
+}
+.icon{
+    font-size: 30px;
+    color: #F0F0F0;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon:hover{
+    color: #E2E2E2;
+}
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.container form input{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    background-color: #F3F3F3;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.container form input:focus{
+    border:2px #4FCF99 solid;
+    outline: none;
+
+}
+.links{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+.links li{
+    float: left;
+    margin: 10px;
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+} 
+.links li a:hover{
+    color: #E2E2E2;
+}
+/* ****************end header********************** */
+/*   ***************start introduction*********************  */
+.intro{
+    overflow: hidden; 
+    background-color: black;
+    height: 400px;
+
+    
+}
+.content{
+    float: left;
+    color: white;
+    margin: 10px;
+   
+}
+.image{
+    float: right;
+}
+.content span{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    
+}
+.content span:hover{
+    background-color: #9e9e9e29;
+}
+/*   ******************end introduction*****************************  */
+/* ************************start feature *************************/
+.feature {
+    overflow: hidden;
+}
+
+.smallimage{overflow: hidden;}
+.bigimage a{overflow: hidden;}
+.smallimage a{
+    float: left;
+    margin: 5px;
+    width: 183px;
+    height: 142px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 3px;
+}
+#smallimage1{
+    background-image: url(/images/walla.jpg);
+}
+#smallimage2{
+    background-image: url(/images/whoosh.jpg);
+}
+#smallimage3{
+    background-image: url(/images/wind.jpg);
+}
+#smallimage4{
+    background-image: url(/images/footsteps.jpg);
+}
+#smallimage5{
+    background-image: url(/images/cartoon.jpg);
+}
+#smallimage6{
+    background-image: url(/images/drones.jpg);
+}
+#smallimage1:hover{
+    background-image: url("/images/a4dded.png");
+}
+#smallimage2:hover{
+    background-image: url("/images/a4dded.png");
+}
+#smallimage3:hover{
+    background-image: url("/images/a4dded.png");
+}
+#smallimage4:hover{
+    background-image: url("/images/a4dded.png");
+}
+#smallimage5:hover{
+    background-image: url("/images/a4dded.png");
+}
+#smallimage6:hover{
+    background-image: url("/images/a4dded.png");
+}
+
+.smallimage a span{
+    position: absolute;
+    top: 51px;
+    left: 50px;
+    font-weight: bold;
+
+}
+.bigimage a{
+    float: left;
+    width:570px;
+    height: 202px;
+    margin: 5px;
+    text-decoration:none ;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+#bigimage1{
+    background-image: url("/images/menus_and_interfaces.jpg");
+}
+#bigimage2{
+    background-image: url(/images/ambience.jpg);
+}
+#bigimage1:hover{
+    background-image: url("/images/a4dded.png");
+}
+#bigimage2:hover{
+    background-image: url("/images/a4dded.png");
+}
+.bigimage a span{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    font-weight: bold;
+}
+
+
+/* ************************end feature *************************/
+/* ************************start browes************************** */
+.browes{overflow: hidden;}
+.browes ul{
+    list-style: none;
+    overflow: hidden;
+}
+.browes ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    color: #838383;
+    padding: 10px;
+    transition: all;
+   
+}
+.browes ul li a:hover{
+   border-bottom:2px  black solid;
+    color: black;
+}
+.browesimage a{
+    float: left;
+    width: 276px;
+    height: 142px;
+    background-color: rgb(223, 174, 84);
+    margin: 5px;
+    text-decoration:none ;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 18px;
+}
+#browesimage1{
+    background-image: url(/images/beverly_hills.jpg);
+}
+#browesimage2{
+    background-image: url(/images/unleash_the_hounds.jpg);
+}
+#browesimage3{
+    background-image: url(/images/warped.jpg);
+}
+#browesimage4{
+    background-image: url(/images/spandex_and_capes.jpg);
+}
+#browesimage1:hover{
+    background-image: url("/images/a4dded.png");
+}
+#browesimage2:hover{
+    background-image: url("/images/a4dded.png");
+}
+#browesimage3:hover{
+    background-image: url("/images/a4dded.png");
+}
+#browesimage4:hover{
+    background-image: url("/images/a4dded.png");
+}
+.browesimage a span{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-weight: bold;
+}
+
+/* ************************end browes**************************** */
+/* ************************start film******************************** */
+.films{
+    overflow: hidden;
+    margin-top: 60px
+}
+
+.films a{
+    background-color: violet;
+    float: left;
+    margin: 5px;
+    width: 183px;
+    height: 142px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 3px;
+}
+.films a span{
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    font-size: 17px;
+
+}
+/* **************************end film***************************** */
+/* **********************************start discover******************* */
+.discover{
+    background-color: #F4F9F7;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.div1 h2{
+    color: #333333;
+}
+.static1,.static2{
+    float: left;
+    width: 25%;
+}
+.static1 h2,.static2 h2{
+    color: #2D4A41;
+}
+.static1 p,.static2 p{
+    color: #8C8D8D;
+}
+.div3{
+    clear: both;
+    overflow: hidden;
+    
+}
+.div3 .icon1,.div3 .icon2 ,.div3 .icon3,.div3 .icon4{
+    float: left;
+    width: 25%;
+}
+.div3 .icon1 h3,.div3 .icon2 h3 ,.div3 .icon3 h3,.div3 .icon4 h3{
+    color: #333333;
+}
+.div3 .icon1 p,.div3 .icon2 p ,.div3 .icon3 p,.div3 .icon4 p{
+    color: #8C8D8D ;
+}
+.chart{
+    color: #020202;
+    font-size: 60px;
+
+}
+/* ******************************end discover*************************** */
+/* <!-- ----------------------start black backdround---------- --> */
+.blackall .solid{
+    background-color: black;
+    float: left;
+    width: 40%;
+    height: 730px;
+    position: relative;
+}
+.blackall .image{
+    background-image: url("/images/home-clients-6.jpg");
+    background-size: cover;
+    float: left;
+    width: 57.4%;
+    height: 730px;
+    opacity: 0.6;
+}
+.allimages{
+    margin-top: 50px;
+}
+.insideimage{
+    
+    width:20%;
+    float: left;
+    margin-top: 20px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.insideimage img{
+    width: 120px;
+    height: 80px;
+}
+.blackall{
+    background-color: black;
+    overflow: hidden;
+}
+.solid p{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+}
+/* <!-- ----------------------start black backdround---------- --> */
+/* -----------------------start sound------------------- */
+.soundall{
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+.sound{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    
+}
+.sound .p1 ,.sound a{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+   
+}
+.sound .p1{
+    color: white;
+   
+}
+.sound a{
+    color: #1A785A;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 130px;
+   
+}
+/* -----------------------end sound------------------- */
+/* ---------------------start list--------------------- */
+.beforfooter{
+    background-color: black;
+}
+.listall{
+    overflow: hidden;
+   
+}
+.listall .soundsnap,.listall .product,.listall .company,.listall .legal,.listall .iconfooter{
+    float: left;
+    width: 20%;
+}
+.listall .soundsnap,.listall .product ul,.listall .company ul,.listall .legal ul,.listall .iconfooter ul{
+ list-style: none;
+}
+.listall .product ul li a,.listall .company ul li a,.listall .legal ul li a,.listall .iconfooter ul li a,.listall .soundsnap {
+    text-decoration: none;
+    color: #414141;
+}
+.listall .product ul  h4,.listall .company ul  h4,.listall .legal ul  h4,.listall .iconfooter ul  h4 {
+    color: white;
+}
+.iconf{
+    color: #414141;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* ---------------------end list------------------------ */
+/* --------------------start footer----------------------- */
+.footer{
+    background-color: black;
+    padding: 20px;
+    clear: both;
+}
+.footer p{
+    text-align: center;
+    color: #4A4A4A;
+}
+/* ----------------------end footer------------------------ */

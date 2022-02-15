@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .loginform{
+        width: 700px;
+        margin: 10px auto;
+    }
+    form input[type=text],form input[type=password]{
+        border-radius: 5px;
+        width: 334px;
+        height: 20px;
+        padding: 15px;
+        margin: 10px auto;
+        border: 2px solid #D5D5D5;
+        display: block;
+    }
+    form input[type=text],form input[type=password]:focus{
+        outline: none;
+    }
+    h2{
+        text-align: center;
+    }
+    .robot{
+        border: 2px solid #D5D5D5 ;
+        width: 304px;
+        height: 70px;
+        border-radius: 5px;
+        margin-left: 163px;
+    }
+    .robot span,.robot input[type=checkbox]{
+        margin-top:25px ;
+    }
+    .link1{
+        width: 364px;
+        height: 50px;
+        background-color: #50BF90;
+        margin: 10px;
+        border-radius: 5px;
+        margin-left: 163px;
+    }
+    .link1 a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+       margin-left: 140px;
+       margin-top: 30px;
+    }
+    .link2{
+        text-decoration: none;
+        color: #8D8D8D;
+        font-weight: bold;
+        margin: auto;
+       margin-left: 250px;
+    }
+
+   
+</style>
+<body>
+    <div class="loginform">
+        <img src="/images//soundsnap-best-online-sound-effects-library-feature-image-logo.jpg" width="300px" height="200px" style="margin-left: 170px;">
+        <h2>Login to Soundsnap</h2>
+        <form>
+            <input type="text" id="name" placeholder="username or email address">
+            <input type="password" id="name" placeholder="password *">
+            <div class="robot">
+            <input type="checkbox">
+                <span>iam not a robot</span>
+            </div>
+        </form>
+       <div class="link1">
+        <a  href="#">log in</a>
+       </div>
+        <a class="link2" href="./register.html">create a new account</a>
+    </div>
+</body>
+</html>
